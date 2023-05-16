@@ -8,7 +8,7 @@ const Main = (props) => {
   const [ people, setPeople ] = useState(null)
 
   // const URL = "http://localhost:4000/people/";
-  const URL = "https://person-app-backend-zqs8.onrender.com/people";
+  const URL = "https://person-app-backend-zqs8.onrender.com/people/";
 
   const getPeople = async () => {
     const response = await fetch(URL);
