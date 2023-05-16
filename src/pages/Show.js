@@ -9,7 +9,6 @@ const Show = (props, /*{people}*/) => {
 
   const person = people ? people.find((p) => p._id === id ) : null
 
-
   const [ editForm, setEditForm ] = useState(person)
 
   const [ isEditing, setIsEditing ] = useState(false)
