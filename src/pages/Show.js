@@ -18,7 +18,7 @@ const Show = (props, /*{people}*/) => {
     if (person) {
       setEditForm(person)
     }
-  }, [person])
+  }, [])
 
   // handling form data change
   const handleChange = (e) => {
